@@ -12,11 +12,11 @@
 "                                                              \$$$$$$ 
 call plug#begin('~/.config/nvim/autoload/plugged')
 
-Plug 'sheerun/vim-polyglot'                               " Better Syntax Support
+" Plug 'sheerun/vim-polyglot'                               " Better Syntax Support
 Plug 'scrooloose/NERDTree'                                " File Explorer
-Plug 'jiangmiao/auto-pairs'                               " Auto pairs for '(' '[' '{' 
+" Plug 'jiangmiao/auto-pairs'                               " Auto pairs for '(' '[' '{' 
 Plug 'morhetz/gruvbox'                                    " Gruv
-Plug 'arcticicestudio/nord-vim'                           " Nord
+" Plug 'arcticicestudio/nord-vim'                           " Nord
 Plug 'neoclide/coc.nvim', {'branch': 'release'}           " Stable version of coc
 Plug 'vim-airline/vim-airline'                          " Status Bar
 Plug 'vim-airline/vim-airline-themes'                   " Status Bar
@@ -24,7 +24,7 @@ Plug 'vim-airline/vim-airline-themes'                   " Status Bar
 Plug 'ap/vim-css-color'                                   " CSS Color 
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }       " FZF & vim-rooter
 Plug 'junegunn/fzf.vim'
-Plug 'tpope/vim-eunuch'                                   " Terminal Comands in Vim
+" Plug 'tpope/vim-eunuch'                                   " Terminal Comands in Vim
 Plug 'tpope/vim-commentary'                               " Vim Commentary
 Plug 'tpope/vim-surround'                                 " Vim Surround
 Plug 'junegunn/goyo.vim'                                  " GoYo Centers Text
