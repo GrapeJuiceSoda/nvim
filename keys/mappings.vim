@@ -18,7 +18,7 @@ nnoremap <TAB> :bnext<CR>
 nnoremap <S-TAB> :bprevious<CR>
 
 " Better window navigation
-nnoremap <C-v> :vsplit<CR>
+" nnoremap <C-v> :vsplit<CR>
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
@@ -27,5 +27,6 @@ nnoremap <C-l> <C-w>l
 nnoremap <silent> h<space> :nohlsearch<CR>
 nnoremap gy :Goyo<CR>
 nnoremap gn :Goyo!<CR>
+" nnoremap it :IndentLinesToggle<CR>
 command! Rc execute ":e ~/.config/nvim/init.vim"
 nnoremap pl :w! \| !pdflatex <c-r>%<CR>

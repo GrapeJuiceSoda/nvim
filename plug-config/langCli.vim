@@ -4,7 +4,8 @@ set hidden
 let g:LanguageClient_serverCommands = {
     \ 'rust': ['~/.cargo/bin/rustup', 'run', 'stable', 'rls'],
     \ 'python': ['/usr/local/bin/pyls'],
-    \ 'java': ['/opt/jdk-14.0.1']
+    \ 'java': ['/opt/jdk-14.0.1'],
+    \ 'ocaml': ['ocamllsp']
     \ }
 
 nnoremap <F5> :call LanguageClient_contextMenu()<CR>
