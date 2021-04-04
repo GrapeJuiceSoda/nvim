@@ -39,8 +39,8 @@ Plug 'mhinz/vim-startify'                                 " Starify
 Plug 'alvan/vim-closetag'                                 " HTML Tag completion
 Plug 'jceb/vim-orgmode'                                   " Org Mode  
 Plug 'inkarkat/vim-SyntaxRange'                           " Org Mode Code Snippits syntx highlighting
-" Plug 'Yggdroot/indentLine'                                " Indent Lines
 Plug 'kjssad/quantum.vim'                                 " White Color Scheme
 Plug 'arzg/vim-colors-xcode'                              " White Color Scheme
+Plug 'lpinilla/vim-codepainter'                           " Highlighter
 call plug#end()
 

@@ -39,8 +39,9 @@ set linebreak                           "Avoid wrapping a line in the middle of 
 au! BufWritePost $MYVIMRC source %      "auto source when writing to init.vm alternatively you can run :source $MYVIMRC
 
 set t_Co=256
-set termguicolors
-colorscheme darkblue
+
+" Edge Colorscheme Settings
+colorscheme edge
 
 " HTML
 " filenames like *.xml, *.html, *.xhtml, ...
@@ -58,10 +59,6 @@ let g:closetag_regions = {
 "Running Rustfmt automatically
 let g:rustfmt_autosave = 1
 let g:tex_flavor='latex'
-
-" Indent Lines Settings
-let g:indentLine_setColors = 0
-let g:indentLine_char_list = ['|', '¦', '┆', '┊']
 
 " You can't stop me
 cmap w!! w !sudo tee %
