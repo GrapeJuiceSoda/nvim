@@ -41,7 +41,7 @@ au! BufWritePost $MYVIMRC source %      "auto source when writing to init.vm alt
 set t_Co=256
 
 " Edge Colorscheme Settings
-colorscheme edge
+colorscheme gruvbox
 
 " HTML
 " filenames like *.xml, *.html, *.xhtml, ...

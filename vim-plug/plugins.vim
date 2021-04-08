@@ -16,8 +16,8 @@ Plug 'scrooloose/NERDTree'                                " File Explorer
 Plug 'jiangmiao/auto-pairs'                               " Auto pairs for '(' '[' '{' 
 Plug 'morhetz/gruvbox'                                    " Gruv
 Plug 'neoclide/coc.nvim', {'branch': 'release'}           " Stable version of coc
-Plug 'vim-airline/vim-airline'                          " Status Bar
-Plug 'vim-airline/vim-airline-themes'                   " Status Bar
+Plug 'vim-airline/vim-airline'                            " Status Bar
+Plug 'vim-airline/vim-airline-themes'                     " Status Bar
 Plug 'ap/vim-css-color'                                   " CSS Color 
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }       " FZF & vim-rooter
 Plug 'junegunn/fzf.vim'
@@ -25,22 +25,11 @@ Plug 'tpope/vim-commentary'                               " Vim Commentary
 Plug 'tpope/vim-surround'                                 " Vim Surround
 Plug 'junegunn/goyo.vim'                                  " GoYo Centers Text
 Plug 'rust-lang/rust.vim'                                 " Rust Vim
-"nvim language Client
-Plug 'autozimu/LanguageClient-neovim', {
-\ 'branch': 'next',
-\ 'do': 'bash install.sh',
-\ }
 Plug 'vim-scripts/utl.vim'                                " HyperText in Vim
 Plug 'majutsushi/tagbar'                                  " Tagbar for Vim
-Plug 'sainnhe/forest-night'                               " Forest Theme
-Plug 'sainnhe/edge'                                       " Polor Color Scheme
-Plug 'olivertaylor/vacme'                                 " plan9 and acme color scheme
 Plug 'mhinz/vim-startify'                                 " Starify
 Plug 'alvan/vim-closetag'                                 " HTML Tag completion
 Plug 'jceb/vim-orgmode'                                   " Org Mode  
 Plug 'inkarkat/vim-SyntaxRange'                           " Org Mode Code Snippits syntx highlighting
-Plug 'kjssad/quantum.vim'                                 " White Color Scheme
 Plug 'arzg/vim-colors-xcode'                              " White Color Scheme
-Plug 'lpinilla/vim-codepainter'                           " Highlighter
 call plug#end()
-

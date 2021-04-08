@@ -13,15 +13,13 @@
         ],
         "v": "open:vsplit"
     },
-    //autoformat
-    //    "java"
-    //    "c"
     "coc.preferences.formatOnSaveFiletypes": [
         "javascript",
         "json",
         "python",
         "vim",
-        "ocaml"
+        "ocaml",
+        "java"
     ],
     "languageserver": {
         "latex": {
