@@ -68,3 +68,7 @@ cmap w!! w !sudo tee %
 " https://github.com/neoclide/coc.nvim/wiki/Language-servers#ocaml-and-reasonml
 let g:opamshare = substitute(system('opam config var share'),'\n$','','''')
 execute "set rtp+=" . g:opamshare . "/merlin/vim"
+
+" Go LSP settings
+" Autoformatting and importing
+autocmd BufWritePre *.go :call CocAction('runCommand', 'editor.action.organizeImport')
