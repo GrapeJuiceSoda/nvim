@@ -32,4 +32,5 @@ Plug 'alvan/vim-closetag'                                 " HTML Tag completion
 Plug 'jceb/vim-orgmode'                                   " Org Mode  
 Plug 'inkarkat/vim-SyntaxRange'                           " Org Mode Code Snippits syntx highlighting
 Plug 'arzg/vim-colors-xcode'                              " White Color Scheme
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
 call plug#end()

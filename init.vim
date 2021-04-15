@@ -33,3 +33,6 @@ let g:coc_global_extensions = [
   \ 'coc-tsserver',
   \ 'coc-go',
   \ ]
+
+" TreeSiter
+" TSInstall bash c cpp go java ocaml python regex rust 
