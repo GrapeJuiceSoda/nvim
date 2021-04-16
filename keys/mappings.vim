@@ -32,7 +32,7 @@ nnoremap <silent> <leader>gn :Goyo!<CR>
 command! Rc execute ":e ~/.config/nvim/init.vim"
 nnoremap pl :w! \| !pdflatex <c-r>%<CR>
 
-" FZF
+" Keybingings on the dashboard
 map <leader>b :Buffers<CR>
 nnoremap <leader>t :Tags<CR>
 nnoremap <silent> <leader>ff :Files<CR>
@@ -41,5 +41,6 @@ nnoremap <silent> <Leader>ff :Files<CR>
 nnoremap <silent> <Leader>tc :Colors<CR>
 nnoremap <silent> <Leader>fa :Rg<CR>
 nnoremap <silent> <Leader>fb :Marks<CR>
+nnoremap <silent> <leader>cn :enew<CR>
 
 
