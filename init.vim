@@ -11,6 +11,8 @@ source $HOME/.config/nvim/plug-config/coc.vim
 source $HOME/.config/nvim/themes/airline.vim
 source $HOME/.config/nvim/plug-config/fzf.vim
 source $HOME/.config/nvim/plug-config/goyo.vim
+source $HOME/.config/nvim/plug-config/dash.vim
+source $HOME/.config/nvim/plug-config/whichkey.vim
 
 " COC-Highlight
 autocmd CursorHold * silent call CocActionAsync('highlight')
@@ -33,6 +35,3 @@ let g:coc_global_extensions = [
   \ 'coc-tsserver',
   \ 'coc-go',
   \ ]
-
-" TreeSiter
-" TSInstall bash c cpp go java ocaml python regex rust 

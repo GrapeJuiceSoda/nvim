@@ -1,3 +1,4 @@
+let mapleader = "\<Space>"
 " Better nav for omnicomplete
 inoremap <expr> <c-j> ("\<C-n>")
 inoremap <expr> <c-k> ("\<C-p>")
@@ -24,9 +25,21 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
-nnoremap <silent> h<space> :nohlsearch<CR>
-nnoremap gy :Goyo<CR>
-nnoremap gn :Goyo!<CR>
+nnoremap <silent> <leader>h :nohlsearch<CR>
+nnoremap <silent> <leader>gy :Goyo<CR>
+nnoremap <silent> <leader>gn :Goyo!<CR>
 " nnoremap it :IndentLinesToggle<CR>
 command! Rc execute ":e ~/.config/nvim/init.vim"
 nnoremap pl :w! \| !pdflatex <c-r>%<CR>
+
+" FZF
+map <leader>b :Buffers<CR>
+nnoremap <leader>t :Tags<CR>
+nnoremap <silent> <leader>ff :Files<CR>
+nnoremap <silent> <Leader>fh :History<CR>
+nnoremap <silent> <Leader>ff :Files<CR>
+nnoremap <silent> <Leader>tc :Colors<CR>
+nnoremap <silent> <Leader>fa :Rg<CR>
+nnoremap <silent> <Leader>fb :Marks<CR>
+
+

@@ -27,10 +27,11 @@ Plug 'junegunn/goyo.vim'                                  " GoYo Centers Text
 Plug 'rust-lang/rust.vim'                                 " Rust Vim
 Plug 'vim-scripts/utl.vim'                                " HyperText in Vim
 Plug 'majutsushi/tagbar'                                  " Tagbar for Vim
-Plug 'mhinz/vim-startify'                                 " Starify
+Plug 'glepnir/dashboard-nvim'                             " Dashboard
 Plug 'alvan/vim-closetag'                                 " HTML Tag completion
 Plug 'jceb/vim-orgmode'                                   " Org Mode  
 Plug 'inkarkat/vim-SyntaxRange'                           " Org Mode Code Snippits syntx highlighting
 Plug 'arzg/vim-colors-xcode'                              " White Color Scheme
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
+Plug 'liuchengxu/vim-which-key'
 call plug#end()
