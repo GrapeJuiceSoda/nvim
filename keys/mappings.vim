@@ -6,8 +6,13 @@ inoremap <expr> <c-k> ("\<C-p>")
 " Use alt + hjkl to resize windows
 nnoremap <M-j>    :resize -2<CR>
 nnoremap <M-k>    :resize +2<CR>
-nnoremap <M-h>    :vertical resize -2<CR>
-nnoremap <M-l>    :vertical resize +2<CR>
+nnoremap <M-h>    :vertical resize +2<CR>
+nnoremap <M-l>    :vertical resize -2<CR>
+
+" Splitting windows
+nnoremap <leader>wv :vsplit<CR>
+nnoremap <leader>ws :split<CR>
+nnoremap <leader>wd :q<CR>
 
 " I hate escape more than anything else
 inoremap jk <Esc>
