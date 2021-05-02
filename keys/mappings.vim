@@ -12,7 +12,9 @@ nnoremap <M-l>    :vertical resize -2<CR>
 " Splitting windows
 nnoremap <leader>wv :vsplit<CR>
 nnoremap <leader>ws :split<CR>
-nnoremap <leader>wd :q<CR>
+nnoremap <leader>wd :bd<CR>
+nnoremap <leader>wq :q<CR>
+nnoremap <leader>ww :wq<CR>
 
 " I hate escape more than anything else
 inoremap jk <Esc>
@@ -24,15 +26,20 @@ nnoremap <TAB> :bnext<CR>
 nnoremap <S-TAB> :bprevious<CR>
 
 " Better window navigation
-" nnoremap <C-v> :vsplit<CR>
-nnoremap <C-h> <C-w>h
-nnoremap <C-j> <C-w>j
-nnoremap <C-k> <C-w>k
-nnoremap <C-l> <C-w>l
+nnoremap <leader>wh <C-w>h
+nnoremap <leader>wj <C-w>j
+nnoremap <leader>wk <C-w>k
+nnoremap <leader>wl <C-w>l
 
 nnoremap <silent> <leader>h :nohlsearch<CR>
-nnoremap <silent> <leader>gy :Goyo<CR>
-nnoremap <silent> <leader>gn :Goyo!<CR>
+nnoremap <leader>gy :Goyo<CR>
+nnoremap <leader>gn :Goyo!<CR>
+nnoremap <silent> <Leader>rc :Rc<CR>
+
+" NERDTree Mappings
+nnoremap <leader>nm :NERDTreeFocus<CR>
+nnoremap <leader>nt :NERDTreeToggle<CR>
+
 " nnoremap it :IndentLinesToggle<CR>
 command! Rc execute ":e ~/.config/nvim/init.vim"
 nnoremap pl :w! \| !pdflatex <c-r>%<CR>
@@ -40,12 +47,17 @@ nnoremap pl :w! \| !pdflatex <c-r>%<CR>
 " Keybingings on the dashboard
 map <leader>b :Buffers<CR>
 nnoremap <leader>t :Tags<CR>
-nnoremap <silent> <leader>ff :Files<CR>
+nnoremap <silent> <Leader>ff :Files<CR>
 nnoremap <silent> <Leader>fh :History<CR>
 nnoremap <silent> <Leader>ff :Files<CR>
 nnoremap <silent> <Leader>tc :Colors<CR>
 nnoremap <silent> <Leader>fa :Rg<CR>
 nnoremap <silent> <Leader>fb :Marks<CR>
-nnoremap <silent> <leader>cn :enew<CR>
+nnoremap <silent> <Leader>cn :enew<CR>
 
-
+" nnoremap <silent> <Leader>fh :DashboardFindHistory<CR>
+" nnoremap <silent> <Leader>ff :DashboardFindFile<CR>
+" nnoremap <silent> <Leader>tc :DashboardChangeColorscheme<CR>
+" nnoremap <silent> <Leader>fa :DashboardFindWord<CR>
+" nnoremap <silent> <Leader>fb :DashboardJumpMark<CR>
+" nnoremap <silent> <Leader>cn :DashboardNewFile<CR>

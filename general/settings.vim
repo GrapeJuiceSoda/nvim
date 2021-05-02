@@ -41,7 +41,7 @@ au! BufWritePost $MYVIMRC source %      "auto source when writing to init.vm alt
 set t_Co=256
 
 " Edge Colorscheme Settings
-colorscheme gruvbox
+colorscheme fahrenheit
 
 " HTML
 " filenames like *.xml, *.html, *.xhtml, ...
@@ -89,3 +89,6 @@ require'nvim-treesitter.configs'.setup {
   },
 }
 EOF
+
+" Dashboard-vim
+
