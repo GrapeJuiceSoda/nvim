@@ -43,6 +43,7 @@ set t_Co=256
 " Edge Colorscheme Settings
 colorscheme fahrenheit
 
+
 " HTML
 " filenames like *.xml, *.html, *.xhtml, ...
 " These are the file extensions where this plugin is enabled.
@@ -90,5 +91,5 @@ require'nvim-treesitter.configs'.setup {
 }
 EOF
 
-" Dashboard-vim
-
+" DevIcons
+let g:webdevicons_enable_nerdtree = 1

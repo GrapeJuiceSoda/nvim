@@ -27,4 +27,5 @@ Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend upda
 Plug 'liuchengxu/vim-which-key'
 Plug 'fcpg/vim-fahrenheit'                                " Color Scheme
 Plug 'fcpg/vim-orbital'
+Plug 'ryanoasis/vim-devicons'
 call plug#end()
