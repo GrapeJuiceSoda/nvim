@@ -13,6 +13,7 @@ source $HOME/.config/nvim/plug-config/fzf.vim
 source $HOME/.config/nvim/plug-config/goyo.vim
 source $HOME/.config/nvim/plug-config/dash.vim
 source $HOME/.config/nvim/plug-config/whichkey.vim
+source $HOME/.config/nvim/plug-config/rnvimr.vim
 
 " COC-Highlight
 autocmd CursorHold * silent call CocActionAsync('highlight')

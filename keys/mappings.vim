@@ -36,9 +36,8 @@ nnoremap <leader>gy :Goyo<CR>
 nnoremap <leader>gn :Goyo!<CR>
 nnoremap <silent> <Leader>rc :Rc<CR>
 
-" NERDTree Mappings
-nnoremap <leader>nm :NERDTreeFocus<CR>
-nnoremap <leader>nt :NERDTreeToggle<CR>
+" Ranger
+nnoremap <silent> <leader>wr :RnvimrToggle<CR>
 
 " nnoremap it :IndentLinesToggle<CR>
 command! Rc execute ":e ~/.config/nvim/init.vim"
